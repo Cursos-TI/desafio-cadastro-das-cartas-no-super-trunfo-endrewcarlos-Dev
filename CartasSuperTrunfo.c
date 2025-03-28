@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+    // Declaração das variáveis - CARTA 01
     int main (){
         int populacao, pontosturisticos;
         char estado;
@@ -8,7 +9,7 @@
         float area;
         float pib;
         
-        
+        // Entrada das informações fornecidas pelo usuário    
         printf("CARTA 1\n");
         printf("Digite o nome do estado: \n");
         scanf("%c", &estado);
@@ -31,10 +32,11 @@
         printf("Digite o PIB: \n");
         scanf("%f", &pib);
 
+        // Saída das informações fornecidas pelo usuário
         printf(" - A CARTA 1- \n - Estado: %c\n - Código da Carta: %s\n - Nome da cidade: %s\n", estado, codigo, cidade);
         printf(" - População: %d\n - Número de Pontos Turísticos: %d\n - área: %.2f KM²\n - PIB: %.2f Bilhões de Reais\n", populacao, pontosturisticos, area, pib);
 
-        
+     // Declaração das variáveis - CARTA 02    
         int populacao2, pontosturisticos2;
         char estado2;
         char codigo2[5];
@@ -42,6 +44,8 @@
         float area2;
         float pib2;
         
+     
+        // Entrada das informações fornecidas pelo usuário da - Carta 02
         printf("CARTA 2\n");
         printf("Estado: B \n");
             
@@ -63,6 +67,7 @@
         printf("Digite o PIB: \n");
         scanf("%f", &pib2);
     
+        // Saída das informações fornecidas pelo usuário da - Carta 02
         printf(" --A CARTA 2-- \n - Estado: B%c\n - Código da Carta: %s\n - Nome da cidade: %s\n", estado2, codigo2, cidade2);
         printf(" - População: %d\n - Número de Pontos Turísticos: %d\n - área: %.2f KM²\n - PIB: %.2f Bilhões de Reais\n", populacao2, pontosturisticos2, area2, pib2);
 
