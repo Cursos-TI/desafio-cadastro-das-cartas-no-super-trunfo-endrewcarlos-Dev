@@ -41,7 +41,7 @@
         // Cálculo da Densidade Populacional e do PIB per Capita CARTA 1
         densidadepopulacional = populacao / area;
         pibpercapita =  pib / populacao;
-        Super_Poder = pib + pibpercapita + pontosturisticos + populacao + densidadepopulacional + area;
+        Super_Poder = (1/densidadepopulacional) + pib + pibpercapita + pontosturisticos + populacao + area;
         
         
         // Saída das informações fornecidas pelo usuário CARTA 1
@@ -85,7 +85,7 @@
         // Cálculo do Super Poder, Densidade Populacional e do PIB per Capita CARTA 2
         densidadepopulacional2 = populacao2 / area2;
         pibpercapita2 = pib2 / populacao2;
-        Super_Poder2 = pib2 + pibpercapita2 + pontosturisticos2 + populacao2 + densidadepopulacional2 + area2;
+        Super_Poder2 =  (1/densidadepopulacional2) + pib2 + pibpercapita2 + pontosturisticos2 + populacao2 + area2;
         
         
         // Saída das informações fornecidas pelo usuário DA CARTA 2
